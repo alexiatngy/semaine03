@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: Dosis, Roboto, sans-serif;
-    background: white;
+    background: #E3E4E4;
 }
 
 .wrapper {
@@ -42,6 +42,9 @@ h2{
 ------------------------------------------------------------------------------*/
 
 /* header */
+header{
+    background-color: white;
+}
 header .wrapper{
 display: grid;
 grid-template-columns: 50% 50%;
@@ -106,7 +109,89 @@ font-family: roboto, arial black;
 margin-top: 0;
 }
 
+.hero {
+margin-bottom: 40px;
+}
 
-/* section */
+
+/* contenu */
+.contenu .wrapper{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+article{
+    display: grid;
+    width: 320px;
+    height: 714px ;
+    background-color: white;
+    align-self: center;
+    grid-template-rows: auto 1fr auto;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+   }
+.contenu p{
+    margin: 10px 0;
+    line-height: 25px;
+    font-family: roboto, arial black;
+}
+
+.contenu a{
+
+        font-family: roboto, arial black;
+    color: black;
+    background-color:#B7B7B7 ;
+    align-self: flex-end;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    justify-self: center;
+    border-radius: 5px;
+
+display: flex; 
+align-items: center;
+justify-content: center;
+}
+
+.contenu a:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: #0E5EA1;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.imgContenu{
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 35px;
+}
+
 
 /* footer */
+
+footer{
+    background-color: black;
+    height: 72px;
+
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    justify-self: center;
+    
+
+}
+
