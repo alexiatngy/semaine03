@@ -1,0 +1,112 @@
+/*----------------------------------------------------------------------------
+    Generic
+----------------------------------------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------------
+   Element - Base
+------------------------------------------------------------------------------*/
+
+body {
+    font-family: Dosis, Roboto, sans-serif;
+    background: white;
+}
+
+.wrapper {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------------------------------------
+   Element - Typographie
+------------------------------------------------------------------------------*/
+h1{
+    font-size: 36px;
+
+}
+
+h2{
+    font-size: 24px
+}
+
+/*------------------------------------------------------------------------------
+   Composantes / Modules
+------------------------------------------------------------------------------*/
+
+/* header */
+header .wrapper{
+display: grid;
+grid-template-columns: 50% 50%;
+align-items: center;
+}
+
+header img{
+    max-width: 285px;
+    max-height: 77px;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a{
+text-transform: uppercase;  
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+ background-color:#0E5EA1 ;
+ border-radius: 5px;
+padding: 5px;
+ color: white;  
+text-decoration: none;
+text-transform: uppercase; 
+}
+
+/* hero */
+.hero{
+background-image: url(../images/hero.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 450px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.hero .wrapper{
+width: 455px;
+height: 119px;
+background-color: rgba(0, 0, 0, 0.7);
+border-radius: 10px;
+text-align: center;
+}
+
+h1{
+margin-bottom: 20px;
+}
+
+.hero p{
+color: #2FCB48;
+font-family: roboto, arial black;
+margin-top: 0;
+}
+
+
+/* section */
+
+/* footer */
